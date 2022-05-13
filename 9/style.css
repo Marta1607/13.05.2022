@@ -1,0 +1,52 @@
+* {
+    font-family: helvetica;
+}
+
+#galeria , footer {
+    background-color:rgb(70, 130, 180) ;
+    color: white;
+    height: 30px;
+    text-align: center;
+    clear: both;
+}
+
+#zdj {
+    background-color:rgb(176, 196, 222);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#lewy{
+    background-color:rgb(70, 130, 180) ;
+    color: white;
+    height: 300px;
+    width: 80%;
+    float: left;
+}
+
+#prawy {
+    background-color:rgb(70, 130, 180) ;
+    color: white;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+
+#obraz1 {
+    padding: 3px;
+    border: 1px dashed blue;
+    border-radius: 10px;
+}
+
+.obrazy{
+    height: 40%;
+}
+
+.obrazy:hover {
+    border: 1px solid white;
+}
+
+.serce {
+    background-image: url(./icon-on.png);
+}
